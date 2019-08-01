@@ -1,11 +1,11 @@
 
-PHP217 兄弟连二期项目实战。 2019年8月1日
+PHP217 兄弟连二期项目实战。 2019年8月1日<br /> 
 
 
-#基于Bootstrap前端开发，自适应手机、平板、PC
-#基于HYPER 后台系统二次开发
-#基于laravel 5.5版本
-#基于vue.js
+#基于Bootstrap前端开发，自适应手机、平板、PC <br /> 
+#基于HYPER 后台系统二次开发<br /> 
+#基于laravel 5.5版本<br /> 
+#基于vue.js<br /> 
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
