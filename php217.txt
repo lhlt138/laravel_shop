@@ -1,0 +1,2 @@
+ÃüÁîĞĞ£º
+composer create-project --prefer-dist laravel/laravel laravavel_shop --prefer-dist "5.5.*"
