@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTalbeUsers extends Migration
+class CreateTableOrder extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreateTalbeUsers extends Migration
      */
     public function up()
     {
-        //创建表 user是你的表名 
-        Schema::create('users', function (Blueprint $table) {
-            //increments string timestamps 类型 
+        Schema::create('order', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('password');
+            $table->string('uname');
+            $table->string('order_code');
         });
     }
 
@@ -30,6 +28,6 @@ class CreateTalbeUsers extends Migration
     public function down()
     {
         //
-        Schema::drop('user');
+        Schema::drop('order');
     }
 }
